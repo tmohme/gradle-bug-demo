@@ -1,5 +1,11 @@
 plugins {
   id 'java'
+  id 'com.gradle.build-scan' version '1.5'
+}
+
+buildScan {
+  licenseAgreementUrl = 'https://gradle.com/terms-of-service'
+  licenseAgree = 'yes'
 }
 
 repositories {
@@ -7,7 +13,5 @@ repositories {
 }
 
 dependencies {
-//  compile "de.agilecoders.wicket:wicket-bootstrap-core:0.10.11",
-//          "de.agilecoders.wicket:wicket-bootstrap-extensions:0.10.11"
   compile "de.agilecoders.wicket:wicket-bootstrap-extensions:0.10.11"
 }
