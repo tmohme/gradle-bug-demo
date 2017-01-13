@@ -1,0 +1,13 @@
+plugins {
+  id 'java'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+//  compile "de.agilecoders.wicket:wicket-bootstrap-core:0.10.11",
+//          "de.agilecoders.wicket:wicket-bootstrap-extensions:0.10.11"
+  compile "de.agilecoders.wicket:wicket-bootstrap-extensions:0.10.11"
+}
